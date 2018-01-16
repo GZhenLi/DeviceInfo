@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-   s.framework  = "UIKit"
+   s.framework  = "AdSupport.framework", "CoreTelephony.framework", "UIKit.framework" 
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
