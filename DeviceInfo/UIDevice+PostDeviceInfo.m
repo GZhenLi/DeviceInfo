@@ -7,7 +7,9 @@
 //
 
 #import "UIDevice+PostDeviceInfo.h"
+#import <Foundation/Foundation.h>
 #import "CQDeviceInfo.h"
+
 @implementation UIDevice (PostDeviceInfo)
 + (void)postDeviceInfoWithUrl:(NSString *)url  success:(successBlock)success failure:(failureBlock)failure item:(NSString *)firstItem,...{
     NSString *other = nil;
